@@ -1,0 +1,11 @@
+Error: Unauthorized
+    at <anonymous> (C:\Work\ai-seekho\packages\api\src\middleware\auth.ts:8:28)
+    at dispatch (C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\compose.js:43:23)
+    at C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\compose.js:43:46
+    at logger2 (C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\middleware\logger\index.js:65:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async dispatch (C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\compose.js:43:17)
+    at async cors2 (C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\middleware\cors\index.js:100:5)
+    at async dispatch (C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\compose.js:43:17)
+    at async C:\Work\ai-seekho\node_modules\.pnpm\hono@4.12.18\node_modules\hono\dist\cjs\hono-base.js:322:25
+    at async responseViaResponseObject (C:\Work\ai-seekho\node_modules\.pnpm\@hono+node-server@2.0.1_hono@4.12.18\node_modules\@hono\node-server\dist\index.cjs:710:13)

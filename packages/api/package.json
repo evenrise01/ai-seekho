@@ -1,0 +1,29 @@
+{
+  "name": "@ai-seekho/api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsx watch --env-file=../../.env src/server.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ai-seekho/db": "workspace:^",
+    "@hono/node-server": "^2.0.1",
+    "@hono/zod-validator": "^0.8.0",
+    "@upstash/redis": "^1.38.0",
+    "drizzle-orm": "^0.45.2",
+    "hono": "^4.12.18",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260508.1",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^22.15.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0",
+    "wrangler": "^4.90.0"
+  }
+}
